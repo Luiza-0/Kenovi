@@ -1,31 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
 
-body{
+body {
     height: 100%;
 }
 
-ul li a{
+p{
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+/*Sidebar*/
+
+#logo {
+    margin: 20px auto;
+    width: 250px;
+    height: 150px;
+}
+
+ul li a {
     margin: auto;
     color: aliceblue;
     font-weight: 200;
 }
 
-.nav-link{
+.nav-link {
     transition: all .3s ease;
 }
 
 .nav-link:hover {
-    transform: translate3d(5px,0,0);
-}
-  
-#logo{
-    margin: 20px auto;
+    transform: translate3d(5px, 0, 0);
 }
 
-#article1 span{
-    font-weight: bold;
+#sidebar {
+    background-color: rgba(68, 147, 212, 0.904);
 }
+
+
+
+/*Article*/
+.articles-img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border: 1px solid rgb(146, 146, 146);
+}
+
+article{
+    margin-top: 200px;
+    margin-left: 20px;
+    justify-content: left;
+}
+
+article span{
+    font-weight: bolder;
+}
+
+#article3 #botao-eficacia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(146, 146, 146);
+}
+
+#article-form1 {
+    margin-top: 100px;
+}
+
+#article-form1 p, h2{
+    padding: 25px;
+    text-align: left;
+}
+#tipo-forms h3{
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+
